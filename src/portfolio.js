@@ -188,7 +188,7 @@ const workExperiences = {
       descBullets: [
         "Cut down infra cost by 40%",
         "Handled PCI-compliant third-party payments integration",
-        "Reduced SRT by 50% with asynchronous processing",
+        "Reduced SRT by 50% with asynchronous processing"
       ]
     },
     {
@@ -199,7 +199,7 @@ const workExperiences = {
       desc: "Architected and deploy Kubernetes clusters. Automated the build and release processes",
       descBullets: [
         "Augmented EKS clusters with Karpenter to cut down costs by 50%",
-        "Automated deployment of microservices with ArgoCD",
+        "Automated deployment of microservices with ArgoCD"
       ]
     },
     {
@@ -267,8 +267,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AWS Certified Solutions Architect - Professional",
-      subtitle:
-        " ",
+      subtitle: " ",
       image: require("./assets/images/awsSAPro.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -279,13 +278,12 @@ const achievementSection = {
         {
           name: "Code - LKXD14XL3NQQQVWK",
           url: ""
-        },
+        }
       ]
     },
     {
       title: "AWS Certified Solutions Architect - Associate",
-      subtitle:
-        " ",
+      subtitle: " ",
       image: require("./assets/images/awsSAA.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -298,7 +296,7 @@ const achievementSection = {
           url: ""
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -316,7 +314,7 @@ const blogSection = {
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
